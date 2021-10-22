@@ -46,7 +46,7 @@ canvas.addEventListener('mousemove', (e)=>{
 function drawCircle(x, y){
     ctx.beginPath();
     ctx.arc(x, y, size, 0, Math.PI * 2)
-    ctx.fillstyle = color
+    ctx.fillStyle = color
     ctx.fill()
 }
 
